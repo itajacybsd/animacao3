@@ -1,4 +1,4 @@
-import 'package:animacao3/home_page.dart';
+import 'package:animacao3/controlled_animation.dart';
 import 'package:flutter/material.dart';
 
 class Animation3 extends StatelessWidget {
@@ -6,6 +6,9 @@ class Animation3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(title: 'Animação Controlada 3', home: HomePage());
+    return MaterialApp(
+      title: 'Animação Controlada 3',
+      home: ControlledAnimation(),
+    );
   }
 }
